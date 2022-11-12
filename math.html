@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+
+	var list="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789@#$&",randoomPassword=[];
+	//for finding the length of the list we consider
+	console.log(list.length)
+	console.log(list.charAt(45))
+	for(i=1;i<=8;i++){
+		var randomNumber=Math.floor(Math.random()*66)
+		console.log(randomNumber,list.charAt(randomNumber))
+		randoomPassword.push(list.charAt(randomNumber))
+	}
+	console.log("list from randoomPassword",randoomPassword)
+	var rjoin=randoomPassword.join('')
+	console.log(rjoin)
+</script>
+</body>
+</html>
