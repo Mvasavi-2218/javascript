@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<script type="text/javascript">
+		/*let u=94;
+		console.log(u)
+		u=true
+		console.log(u)*/
+		/*const a=3276;
+		console.log(a)
+		a="good morning"
+		console.log(a)*/
+		/*var f=[87,55,84,12,76],update=[]
+		//var update=f+10;
+		for(i=0;i<f.length;i++){
+			update[i]=f[i]+10
+		}
+		console.log(update)
+			update=f.map(function(v){
+			//console.log(v);
+			return v+100
+		})
+			console.log(update)*/
+		var r=[{id:1,name:"python",salary:25000,age:27},{id:2,name:"java",salary:45000,age:22},{id:3,name:"css",salary:15000,age:24}]
+		r.map(function(n){
+			console.log(n.name)
+		})
+		var highestSalary=r.filter(function(z){
+			return z.salary>=25000
+		})
+		console.log(highestSalary)
+		var smallestAge=r.filter(function(v){
+			return v.age<=25
+		})
+		console.log(smallestAge)
+	</script>
+</head>
+<body>
+</body>
+</html>
