@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<p id="demo"></p>
+	<script type="text/javascript">
+	let v=new Date()
+	console.log(v)
+	const e= new Date("2003-05-31")
+	console.log(e)
+	e.getFullYear()
+	var months=["january","february","march","april","may","october"]
+	var r=new Date("2022-6-5")
+	let month=months[r.getMonth()];
+	document.getElementById("demo").innerHTML = month;
+	console.log(months)
+	console.log(month)
+	const d = new Date("2003-5-31");document.getElementById("demo").innerHTML = d.getHours();
+	console.log(d)
+	const s = new Date("2000-10-27");document.getElementById("demo").innerHTML = s.getMinutes();
+	console.log(s)
+	const t = new Date("2004-01-04");document.getElementById("demo").innerHTML = t.getSeconds();
+	console.log(t)
+	</script>
+
+</body>
+</html>
